@@ -1,0 +1,1 @@
+## Projeto criado para aplicar princípios SOLID
