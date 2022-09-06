@@ -22,9 +22,7 @@ export class ShoppingCartLegacy {
   }
 
   total(): number {
-    return +this._items
-      .reduce((total, next) => total + next.price, 0)
-      .toFixed(2);
+    return +this._items.reduce((total, next) => total + next.price, 0).toFixed(2);
   }
 
   checkout(): void {
